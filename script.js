@@ -53,7 +53,7 @@ catch (error) {
     alert(error);// si une erreur existe on affiche l'erreur
 }
     restart = confirm('Souhaitez-vous de nouveau faire un calcul ?');
-while (restart)
+}while (restart)
 
     alert("Fin du calcul, merci d'avoir utilisé nos services ! A bientôt.");
 
